@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: strapi
+    name: strapi test new
     env: node
     plan: free
     buildCommand: yarn install && yarn build
