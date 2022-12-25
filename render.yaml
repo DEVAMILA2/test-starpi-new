@@ -22,14 +22,14 @@ services:
         fromDatabase:
           name: strapi
           property: connectionString
-      - key: API_TOKEN_SALT
-        generateValue: true
       - key: JWT_SECRET
         generateValue: true
       - key: ADMIN_JWT_SECRET
         generateValue: true
       - key: APP_KEYS
         generateValue: true
+      - key: API_TOKEN_SALT
+        generateValue: true  
         
 
 databases:
